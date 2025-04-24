@@ -1,3 +1,8 @@
+![Screenshot 2025-04-24 164721](https://github.com/user-attachments/assets/0e0ea07f-4a86-4a58-bf4e-ac0880b5db4b)
+
+![Screenshot 2025-04-24 164825](https://github.com/user-attachments/assets/d6291ab6-2f66-44b7-a8d7-9c6002df3273)
+
+
 # Express.js Custom Rate Limiter
 
 A custom rate limiting middleware for Express.js applications that protects API endpoints from abuse by limiting requests per IP address and implementing exponential backoff for repeated violations.
@@ -84,7 +89,3 @@ To test the rate limiter:
 2. Make repeated requests to `http://localhost:3000/api/products`
 3. After 5 requests within a minute, you'll receive a 429 Too Many Requests response
 4. Each subsequent violation will double the block time
-
-## License
-
-MIT
